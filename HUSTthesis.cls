@@ -1022,10 +1022,10 @@
     \pagenumbering{Roman}
     \begin{titlepage}
     \HUST@ctitlepage
-    \clearpage\thispagestyle{empty}\HUST@defencecommittee
+    %\clearpage\thispagestyle{empty}\HUST@defencecommittee
     \clearpage\thispagestyle{empty}\HUST@etitlepage
     \end{titlepage}
-    \clearpage\thispagestyle{empty}\HUST@authorization@mk
+    %\clearpage\thispagestyle{empty}\HUST@authorization@mk
     \HUST@makeabstract}
 
 % 为了符合学校单面打印的要求，重定义 \mainmatter
@@ -1329,7 +1329,7 @@
 \def\HUST@studentno{学号}
 \def\HUST@UDC{学校代码}
 \def\HUST@secrettitle{密级}
-\def\HUST@apply{博士学位论文}
+\def\HUST@apply{硕士学位论文}
 \def\HUST@csubject{学\hfill 科\hfill 专\hfill 业}
 \def\HUST@cauthor{学\hfill 位\hfill 申\hfill 请\hfill 人}
 \def\HUST@csupervisor{指\hfill 导\hfill 教\hfill 师}
